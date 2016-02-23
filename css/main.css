@@ -20,18 +20,21 @@ h1 {
 }
 
 #title {
-	font-size: 4.6em;
+	font-size: 5em;
 }
 
 #button {
 	display: inline;
+	background-color: red;
 	margin: 0 auto;
 }
 
 h3 {
 	color: #940F2B;
+	width: 100%;
 	text-align: center;
-	color: red;
+	color: black
+	opacity: 0.8;
 	margin: 1px;
 }
 
