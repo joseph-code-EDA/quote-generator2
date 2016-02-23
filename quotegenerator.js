@@ -65,5 +65,13 @@ function press() {
 
 	});
 
+function randomAdLib(){
+	var adLibs = ["./sounds/bl1.mp3", "./sounds/bl2.mp3", "./sounds/bl3.mp3"];
+	$("#element").html("<embed src=\"" + Math.floor (Math.random() * (adLibs.length+1))+"\" autostart=\"true\"/>");
+	//console.log(adLibs);
 }
+	/*<p> <button onclick="randomAdLib()">Try it</button> </p>*/
+
+
+
 
