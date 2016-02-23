@@ -23,6 +23,10 @@ h1 {
 	margin: 0 auto;
 }
 
+#main {
+	width: 50%;
+}
+
 h3 {
 	color: #940F2B;
 	width: 100%;
