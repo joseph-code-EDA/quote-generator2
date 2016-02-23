@@ -39,13 +39,13 @@ h3 {
 #quote {
 	font-family: "Yozakura";
 	padding-top: 15px;
-	background-color: #fbf574;
+	background-color: blue;
 	border-radius: 20px;
 	padding: 20px;
 	text-align: justify;
 }
 
-#twitterbutton {
+#media-button {
 	margin: 0 auto;
 	display: inline-block;
 	width: 100%;
