@@ -34,7 +34,9 @@
       </div>
     </div>
     <div id="button">
-      <button type="button" onclick="randomAdLib()">CLICK HERE</button>  
+      <span id="dummy"></span>
+      <button id="burn" type="button" onclick="random()">CLICK HERE</button>
+      <audio id="potato" src="./sounds/bl1.mp3" ></audio>  
     </div>
     <div class="row">
       <div id="media-buttons">
@@ -43,27 +45,6 @@
       <div id="element"></div>
     </div>
   </div>
-
-    <span id="dummy"></span>
-    <button id="burn" onClick="random()">OOOHH BURN!</button>
-    <audio id="potato" src="./sounds/bl1.mp3" ></audio>
-
-<!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
-<script>
-function playSound() {
-  var sounds = new Array(
-    "./sounds/bl1.mp3",
-    "./sounds/bl2.mp3",
-    "./sounds/bl3.mp3"
-  );
-
-$("#element").html("<embed src=\""+sounds[Math.floor(Math.random()*(sounds.length+1))]+"\" hidden=\"true\" autostart=\"true\" />");
-}
-</script>
--->
-
-
-
 
   <script src="quotegenerator.js"></script>
 
