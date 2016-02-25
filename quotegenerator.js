@@ -45,7 +45,6 @@ $(document).ready(function() {
 		twttr.ready(function() {
 			console.log(currentQuote);
 			twttr.widgets.createShareButton('',document.getElementById('twitterbutton'),{ text: currentQuote, size: 'large' });
-			twttr.widgets.createFollowButton('chucknorris', document.getElementById('followbutton'),{size: 'large'});
 		});
 
 
@@ -60,7 +59,7 @@ function press() {
 
 	twttr.ready(function() {
 		document.getElementById('twitterbutton').innerHTML = "";
-		twttr.widgets.createShareButton('http://tony-luisi.github.io/quote-generator/',document.getElementById('twitterbutton'),{ text: currentQuote, size: 'large' });
+		twttr.widgets.createShareButton('',document.getElementById('twitterbutton'),{ text: currentQuote, size: 'large' });
 
 });
 
